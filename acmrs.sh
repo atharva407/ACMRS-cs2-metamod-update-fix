@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TARGET_DIR="./csgo"
+TARGET_DIR="./game/csgo"
 GAMEINFO_FILE="${TARGET_DIR}/gameinfo.gi"
 
 if [ ! -f "${GAMEINFO_FILE}" ]; then
